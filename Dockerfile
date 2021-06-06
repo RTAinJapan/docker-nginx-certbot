@@ -1,4 +1,4 @@
-FROM nginx:1.19.6-alpine
+FROM nginx:1.21.0-alpine
 
 RUN apk add --no-cache certbot certbot-nginx
 RUN rm -rf /docker-entrypoint.d
