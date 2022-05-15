@@ -30,7 +30,7 @@ jobs:
           registry: ghcr.io
           username: hoishin
           password: ${{ secrets.CR_TOKEN }}
-      - uses: crazy-max/ghaction-docker-meta@v1
+      - uses: crazy-max/ghaction-docker-meta@v4
         id: docker_meta
         with:
           images: |
